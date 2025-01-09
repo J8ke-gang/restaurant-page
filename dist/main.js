@@ -116,7 +116,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \*************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   greeting: () => (/* binding */ greeting)\n/* harmony export */ });\nObject(function webpackMissingModule() { var e = new Error(\"Cannot find module './odin.png'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\n// greeting.js\r\nconst greeting = \"Hello, Odinite!\";\r\n\r\n\r\n   \r\nconst image = document.createElement(\"img\");\r\nimage.src = Object(function webpackMissingModule() { var e = new Error(\"Cannot find module './odin.png'\"); e.code = 'MODULE_NOT_FOUND'; throw e; }());\r\n   \r\ndocument.body.appendChild(image);\r\n\r\n\n\n//# sourceURL=webpack:///./src/greeting.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   greeting: () => (/* binding */ greeting)\n/* harmony export */ });\n// greeting.js\r\nconst greeting = \"Hello, Odinite!\";\r\n\r\n// Adding an image from a URL\r\nconst image = document.createElement(\"img\");\r\nimage.src = \"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Pizza-3007395.jpg/1200px-Pizza-3007395.jpg\";\r\nimage.alt = \"A delicious pizza\"; // Always include an alt attribute for accessibility\r\ndocument.body.appendChild(image);\r\n\n\n//# sourceURL=webpack:///./src/greeting.js?");
 
 /***/ }),
 
