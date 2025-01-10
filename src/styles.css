@@ -91,13 +91,14 @@ header nav button:hover {
 }
 /*footer*/
 footer {
-  background-color: #333; /* Dark background for contrast */
-  color: #fff; /* White text color */
-  padding: 20px 0; /* Adds padding for space around the content */
-  text-align: center; /* Center the text */
-  font-size: 0.9rem; /* Smaller font size */
-  border-top: 3px solid #d35400; /* A subtle border to separate the footer */
-  margin-top: 40px; /* Adds spacing from the main content */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0; 
+  text-align: center; 
+  font-size: 0.9rem;
+  border-top: 3px solid #d35400;
+  margin-top: 40px;
+  font-weight: bold;
 }
 
 /*menu-list style*/
