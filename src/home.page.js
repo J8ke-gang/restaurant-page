@@ -4,7 +4,7 @@ export default function createHomePage() {
   // Adding class names for easier styling
   content.innerHTML = `
     <h2 class="home-title">Welcome to Chessus Crust!</h2>
-    <p class="home-description"> Best pizza crafted with the freshest ingredients come check us out.</p>
+    <p class="home-description"> The best pizza crafted with the freshest ingredients come check us out.</p>
   `;
   
   // Creating the image element with a class for styling

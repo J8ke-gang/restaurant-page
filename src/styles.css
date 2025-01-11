@@ -11,6 +11,13 @@ main{
   flex: 1;
 }
 
+h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #333;
+  margin-bottom: 20px;
+}
+
 #content {
   text-align: center;
   padding: 20px;
@@ -101,17 +108,11 @@ footer {
   font-weight: bold;
 }
 
-/*menu-list style*/
+/*menu-list section*/
  #content {
   font-family: 'Arial', sans-serif;
   padding: 20px;
   text-align: center;
-}
-
-h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 20px;
 }
 
 .menu-grid {
