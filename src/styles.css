@@ -18,6 +18,13 @@ h2 {
   margin-bottom: 20px;
 }
 
+h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+  color: #333;
+  margin-bottom: 20px;
+}
+
 #content {
   text-align: center;
   padding: 20px;
@@ -94,6 +101,7 @@ header nav button:hover {
   transform: scale(0.95);
 }
 
+/*menu-list section*/
 /*menu-list section*/
  #content {
   font-family: 'Arial', sans-serif;
