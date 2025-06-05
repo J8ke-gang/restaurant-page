@@ -1,13 +1,13 @@
-/*main page*/
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
 }
 
-main{
+main {
   flex: 1;
 }
 
@@ -17,9 +17,9 @@ main{
   font-family: Arial, sans-serif;
 }
 
-header{
-  position:sticky;
-  top:0;
+header {
+  position: sticky;
+  top: 0;
   padding: 20px;
   text-align: center;
   background-color: #333;
@@ -28,7 +28,6 @@ header{
   z-index: 10;
 }
 
-
 .home-title {
   text-align: center;
   font-size: 2rem;
@@ -36,7 +35,6 @@ header{
   color: #333;
   margin-bottom: 20px;
 }
-
 
 .home-description {
   font-size: 1.2rem;
@@ -56,9 +54,8 @@ header{
   margin-top: 20px;
 }
 
-
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   margin: 0;
   padding: 0;
   background: linear-gradient(to bottom, #ffcc99, #ff9966);
@@ -89,21 +86,10 @@ header nav button:hover {
   background-color: #e67e22;
   transform: scale(0.95);
 }
-/*footer*/
-footer {
-  background-color: #333;
-  color: #fff;
-  padding: 20px 0; 
-  text-align: center; 
-  font-size: 0.9rem;
-  border-top: 3px solid #d35400;
-  margin-top: 40px;
-  font-weight: bold;
-}
 
 /*menu-list style*/
- #content {
-  font-family: 'Arial', sans-serif;
+#content {
+  font-family: "Arial", sans-serif;
   padding: 20px;
   text-align: center;
 }
@@ -113,7 +99,7 @@ h2 {
   color: #333;
   margin-bottom: 20px;
 }
-
+/*menu section*/
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -129,6 +115,14 @@ h2 {
   text-align: center;
   transition: transform 0.2s, box-shadow 0.2s;
   padding: 15px;
+}
+
+.menu-image {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .menu-card:hover {
@@ -154,4 +148,43 @@ h2 {
   font-size: 1rem;
   font-weight: bold;
   color: #d35400;
+}
+
+/*add to cart button*/
+.add-to-cart {
+  background-color: #e63946;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-top: 0.5rem;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  text-align: center;
+  transform-origin: center center;
+}
+
+.add-to-cart:hover{
+  background-color:  #d62828; 
+  transform: scale(1.02);
+}
+
+.add-to-cart:active{
+  transform: scale(0.98);
+  background-color: #a4161a;
+}
+
+/*footer*/
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 3px solid #d35400;
+  margin-top: 40px;
+  font-weight: bold;
 }
